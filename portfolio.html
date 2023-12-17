@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="portfolio.css">
+
+    <script src="portfolio.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/30f2a4861a.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Sarabun:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+
+    <title>Portfolio</title>
+
+</head>
+
+<body>
+
+    <!-- MENU - HEADER -->
+
+    <div class="box-header">
+
+        <header class="menu-principal">
+
+            <div class="Miel">
+
+                <a href="#">F_B</a>
+
+            </div>
+
+            <nav id="nav">
+
+                <ul>
+
+                    <li><a href="#home" onclick="select()" >HOME</a></li>
+
+                    <li><a href="#about-me" onclick="select()">ABOUT ME</a></li>
+
+                    <li><a href="#skills" onclick="select()">SKILLS</a></li>
+
+                    <li><a href="#curriculum" onclick="select()">CURRICULUM</a></li>
+
+                    <li><a href="#contact" onclick="select()">CONTACT</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="nav-responsive" onclick="showHideMenu()"> 
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </header>
+
+    </div>
+
+    <!-- SECTION HOME -->
+
+    <section id="home" class="home">
+
+        <div class="main-container">
+
+            <div class="box-img">
+
+                <img src="image.jpg" alt="my photo">
+
+            </div>
+
+            <h1>Firas Boudhraa</h1>
+
+            <h2>Software Engineer</h2>
+
+            <div class="social-media">
+
+                <a href="#facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#skype"><i class="fa-brands fa-skype"></i></a>
+                <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- SECTION ABOUT ME -->
+
+    <section class="about-me" id="about-me">
+
+        <div class="aboutMeContent">
+
+            <h2>About Me</h2>
+
+            <p><span>Hello, I'm Firas,</span> a software engineer hailing from the vibrant country of Tunisia. 
+                My academic journey began with a strong foundation in mathematics, having earned my Baccalaureate with a focus on this discipline. 
+                Intrigued by the intersection of technology and problem-solving, I transitioned to the military academy, 
+                where I further honed my analytical skills and gained a disciplined approach to challenges.
+                 Now, as a software engineer, I leverage both my mathematical background and the structured mindset cultivated during my military studies. 
+                 I am dedicated to crafting efficient and robust software solutions. My journey reflects not only my academic pursuits but also a commitment 
+                to excellence and adaptability. I look forward to contributing my diverse skill set to innovative projects and collaborative endeavors.</p>
+
+            <!-- Personal Information: row -->
+
+            <div class="personalInfo">  
+
+                <!-- Personal Information -->
+
+                <!-- info-box: col -->
+                <div class="info-box">
+
+                    <h3>Personal Information</h3>
+
+                    <ul>
+
+                        <li>
+                            <strong>Birthday</strong>
+                            20-10-1995
+                        </li>
+
+                        <li>
+                            <strong>Phone</strong>
+                            216-28107403
+                        </li>
+
+                        <li>
+                            <strong>Email</strong>
+                            Firas.Boudhraa@esprit.com
+                        </li>
+
+                        <li>
+                            <strong>Address</strong>
+                            18 Rue Syrie Manouba , Tunisie
+                        </li>
+
+                        <li>
+                            <strong>Position</strong>
+                            <span>FREELANCE</span> 
+
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <!-- Interests -->
+
+                <div class="info-box">
+
+                    <h3>Interests</h3>
+
+                    <div class="myInterests">
+
+                        <div class="interest">
+
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>VIDEO GAMES</span>
+
+                        </div>
+
+                        <div class="interest">
+
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSIC</span>
+
+                        </div>
+
+                        <div class="interest">
+
+                            <i class="fa-solid fa-plane"></i>
+                            <span>TRAVELING</span>
+
+                        </div>
+
+                        <div class="interest">
+
+                            <i class="fa-solid fa-paint-brush"></i>
+                            <span>PAINT</span>
+
+                        </div>
+
+                        <div class="interest">
+
+                            <i class="fa-solid fa-hiking"></i>
+                            <span>SPORTS</span>
+
+                        </div>
+
+                        <div class="interest">
+
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+
+                        </div>
+
+                        <div class="interest">
+
+                            <i class="fa-solid fa-car"></i>
+                            <span>CARS</span>
+
+                        </div>
+
+                        <div class="interest">
+
+                            <i class="fa-solid fa-camera"></i>
+                            <span>PHOTOS</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>    
+
+            <button>
+                Download CV <i class="fa-solid fa-download"></i>
+                <span class="download"></span>
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- SECTION SKILLS -->
+
+    <section class="skills" id="skills">
+
+        <div class="skill-content">
+
+            <h2>Skills</h2>
+
+            <div class="row">
+
+                <!-- Technical Skills -->
+
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="skill-bar">
+
+                            <div class="progress">
+
+                                <span>75%</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="skill-bar">
+
+                            <div class="progress">
+
+                                <span>93%</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="skill-bar">
+
+                            <div class="progress">
+
+                                <span>82%</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="skill-bar">
+
+                            <div class="progress">
+
+                                <span>75%</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Java</span>
+                        <div class="skill-bar">
+
+                            <div class="progress">
+
+                                <span>74 %</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Professional Skills -->
+
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Communication</span>
+                        <div class="skill-bar">
+
+                            <div class="progress">
+
+                                <span>80%</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="skill-bar">
+
+                            <div class="progress">
+
+                                <span>80%</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class ="skill">
+                        <span>Creation</span>
+                        <div class="skill-bar">
+
+                            <div class="progress">
+
+                                <span>67%</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Dedication</span>
+                        <div class="skill-bar">
+
+                            <div class="progress">
+
+                                <span>73%</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <span>Project Management</span>
+                        <div class="skill-bar">
+
+                            <div class="progress">
+
+                                <span>92%</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- SECTION RESUME -->
+
+    <section class="curriculum" id="curriculum">
+
+        <div class="resume-content">
+            <h2>Carreer</h2>
+            <div class="row">
+                <div class="col left">
+                    <h3>Education</h3>
+                    <div class="item left">
+                        <h4>Baccalaureate in Mathematics</h4>
+                        <span class="university">high school Bardo </span>
+                        <span class="date">2013-2014</span>
+                        <p>Embarking on my academic journey, I earned my Baccalaureate in Mathematics in Tunisia. This foundational experience not only 
+                            sharpened my analytical and problem-solving skills but also instilled in me a deep appreciation for the beauty and precision inherent in mathematical concepts. 
+                            The pursuit of a mathematics-focused education laid the groundwork for my future academic and professional endeavors, providing a solid framework that I carry with me into every aspect of my life.</p>
+                        <div class="connector">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+
+                    <div class="item left">
+                        <h4>Military Academy Studies </h4>
+                        <span class="university">Military Academy</span>
+                        <span class="date">2014 - 2019</span>
+                        <p>Building on my mathematical background, I transitioned to the military academy, a transformative phase that offered a unique blend of structured discipline and strategic thinking. 
+                            During my time at the academy, I not only acquired invaluable leadership skills but also developed a profound sense of duty, responsibility, and resilience. The rigorous training and exposure to diverse challenges enhanced my adaptability and instilled in me a commitment to excellence. 
+                            This experience has proven instrumental in shaping my character and approach to various facets of life, fostering a resilient mindset that I apply to both personal and professional pursuits</p>
+                        <div class="connector">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+
+                    <div class="item left">
+                        <h4>Certfication</h4>
+                        <span class="university">University of Esprit</span>
+                        <span class="date">2023 - 2026</span>
+                        <p>Esprit University holds a special place in my academic journey, offering a dynamic and innovative environment that aligns seamlessly with my educational aspirations. 
+                            The institution's commitment to excellence in education, coupled with its forward-thinking approach, has not only broadened my knowledge but has also instilled in me a passion for continuous learning. The diverse range of courses and hands-on experiences at Esprit has not only equipped me with technical skills but has also nurtured a collaborative and entrepreneurial mindset. Beyond the classroom, the vibrant campus community and the support of esteemed faculty have played a pivotal role in shaping my holistic development.
+                             As I reflect on my time at Esprit University, I am confident that the knowledge and values instilled here will serve as a solid foundation for my future endeavors in Software.</p>
+                        <div class="connector">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col right">
+                    <div class="item right">
+                        <img src="image3.jpeg" width="80%"></img>
+                        <div class="connector">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+
+                    <div class="item right">
+
+                        <img src="image4.png" width="50%"></img>
+                        <div class="connector">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+
+                    <div class="item right">
+                        <img src="image5.jpeg" width="80%"></img>
+                        <div class="connector">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- CONTACT SECTION -->
+
+<section class="contact" id="contact">
+    <div class="section-content">
+        <h2>CONTACT</h2>
+        <div class="row">
+            <!-- Form -->
+            <div class="col">
+                <input type="text" id="name" placeholder="Your Name">
+                <span id="nameError" class="error"></span>
+    
+                <input type="number" id="phoneNumber" placeholder="Phone Number">
+                <span id="phoneError" class="error"></span>
+    
+                <input type="email" id="email" placeholder="Email Address">
+                <span id="emailError" class="error"></span>
+    
+                <textarea id="message" name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <span id="messageError" class="error"></span>
+                <button onclick="validateForm()">
+                    Send Message <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+            <!-- Map -->
+            <div class="col">
+                <img src="image6.png" alt="">
+                <div class="info">
+                    <ul>
+                        <li>
+                            <i class="fa-solid fa-location-dot"></i>
+                            18 Rue Syrie Manouba
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-mobile-screen-button"></i>
+                            Contact Number: +216 28107403
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-envelope"></i>
+                            Email: Firas.Boudhraa@esprit.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+    <a href="#home" class="up">
+        <i class="fa-solid fa-angles-up"></i>
+    </a>
+    <div class="social-media">
+        <a href="#facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#skype"><i class="fa-brands fa-skype"></i></a>
+        <a href="#linkedin"><i class="fa-brands fa-linkedin"></i></a>
+    </div>
+</footer>
+
+</body>
+
+</html>
+
+
+
+                   
